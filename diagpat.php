@@ -12,5 +12,5 @@ for($i=1; $i<=$n; $i++){
 	echo "<br/>";
 }
 ?>
-hello
-world
+<!-- hello
+world -->
