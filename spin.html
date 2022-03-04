@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Spinner Loader</title>
+	<style>
+		body{
+			background-color:gray; 
+		}
+		#loader:before{
+			content: "";
+			position: absolute;
+			top: 30%;
+			left: 40%;
+			background-color:transparent;
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
+			border: 20px solid white;
+			border-top-color:red;
+			animation: spinner 2s linear infinite;
+		}
+			@keyframes spinner{
+				to{
+					transform:rotate(360deg)
+				}
+			}
+	</style>
+</head>
+<body>
+	<div id="loader"></div>
+</body>
+</html>
