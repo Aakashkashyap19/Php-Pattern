@@ -5,13 +5,11 @@ for($i=1; $i<=$n; $i++){
 		if ($j==$i || $j+$i==$n+1 ) {
 		echo "*";	
 	}
-	
 	else {
 			echo "0";
 		}	
 	}
-	
-	
 	echo "<br/>";
 }
 ?>
+hello
